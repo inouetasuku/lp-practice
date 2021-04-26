@@ -1,17 +1,18 @@
 @charset "utf-8";
 
 .inner {
-  width: 1100px;
+  margin: 0 auto;
 }
 
 .nav_inner {
   background: #fff;
-  margin: 15px 0;
+  padding: 15px 0 15px 0;
   display: flex;
   justify-content:space-around;
+  width: 100%;
 }
 
-p {
+.p1 .p2 {
   color: #777;
 }
 
@@ -62,9 +63,16 @@ p {
 }
 
 .work_inner {
+  width: 1100px;
   background-color: #e3f2fd;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.pc_img_box {
+  flex-basis: 40%;
+  display: flex;
   justify-content: center;
 }
 
@@ -75,10 +83,10 @@ p {
 
 .work_area {
   flex-basis: 60%;
-  text-align: center;
 }
 
 .work_tittle {
+  text-align: center;
   font-size: 40px;
   /* 文字の間隔 */
   letter-spacing: 10px;
@@ -93,4 +101,114 @@ p {
   /* テキストがコンテンツからはみ出す場合に改行する */
   word-break: break-all;
   text-align: center;
+}
+
+.skill_inner {
+  width: 1100px;
+  background-color: #fff;
+}
+
+.skill_text {
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.skill_icon {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 70px 0 70px 0;
+}
+
+.skill_img {
+  width: 300px;
+  height: 300px;
+  opacity: 0.7;
+}
+
+.skill_icon a {
+  margin: 0 0 100px 100px;
+}
+
+.skill_icon a:first-child {
+  margin-left: 0;
+}
+
+.skill_icon a:nth-child(4){
+  margin-left: 0;
+}
+
+.skill_img:hover {
+  opacity: 1.0;
+}
+
+.select_inner {
+  width: 1100px;
+  background: #d0dfea;
+  padding: 50px 0 50px 0;
+}
+
+.select_text {
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.plan_table {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+table tr,th,td {
+  padding: 10px;
+  border-left: 2px solid #fff;
+}
+
+table tr:first-child {
+  background: #6ba7eb;
+}
+
+table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.inner_sns {
+  width: 1100px;
+  background: #e3f2fd;
+  padding: 200px 0 200px 0;
+}
+
+.sns_icon {
+  text-align: center;
+}
+
+.sns_icon a {
+  font-size: 40px;
+  color: #8c8c8c;
+  overflow: hidden;
+  width: 185px;
+  padding: 25px 0 25px 0;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.sns_icon a:hover {
+  transition: 0.5s;
+  background: #fff;
+}
+
+.inner_footer {
+  background: #cfd8dc;
+}
+
+.inner_footer p {
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  padding: 20px 0 25px 0;
+  text-align: right;
 }
