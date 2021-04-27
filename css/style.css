@@ -1,9 +1,6 @@
 @charset "utf-8";
 
-.inner {
-  margin: 0 auto;
-}
-
+/*! ナビ部分 */
 .nav_inner {
   background: #fff;
   padding: 15px 0 15px 0;
@@ -29,8 +26,9 @@
   color: #333;
 }
 
+/*! メイン画像＆文字 */
+
 .keyvisual-inner {
-  width: 1100px;
   margin: 0 auto;
   position: relative;
 }
@@ -62,9 +60,15 @@
   white-space: nowrap;
 }
 
+/*! WORK部分 */
+
+.work {
+  width: 100%;
+  background-color: #e3f2fd;
+}
+
 .work_inner {
   width: 1100px;
-  background-color: #e3f2fd;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,9 +107,16 @@
   text-align: center;
 }
 
+/*! スキル部分 */
+
+.skill {
+  background-color: #fff;
+  width: 100%;
+}
+
 .skill_inner {
   width: 1100px;
-  background-color: #fff;
+  margin: 0 auto;
 }
 
 .skill_text {
@@ -143,10 +154,17 @@
   opacity: 1.0;
 }
 
+/*! SELECT PLAN部分 */
+
+.select_plan {
+  width: 100%;
+  background-color: #d0dfea;
+}
+
 .select_inner {
   width: 1100px;
-  background: #d0dfea;
   padding: 50px 0 50px 0;
+  margin: 0 auto;
 }
 
 .select_text {
@@ -177,10 +195,17 @@ table tr:nth-child(even) {
   background: #f9f9f9;
 }
 
+/*! SNS部分 */
+
+.sns {
+  width: 100%;
+  background: #e3f2fd;
+}
+
 .inner_sns {
   width: 1100px;
-  background: #e3f2fd;
   padding: 200px 0 200px 0;
+  margin: 0 auto;
 }
 
 .sns_icon {
@@ -202,8 +227,16 @@ table tr:nth-child(even) {
   background: #fff;
 }
 
-.inner_footer {
+/*! フッター部分 */
+
+.footer {
+  width: 100%;
   background: #cfd8dc;
+}
+
+.inner_footer {
+  width: 1100px;
+  margin: 0 auto;
 }
 
 .inner_footer p {
